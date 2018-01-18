@@ -1,3 +1,5 @@
+package fibonachi;
+
 import java.util.Scanner;
 
 public class Fibonachi {
@@ -9,7 +11,7 @@ public class Fibonachi {
             return 1;
         } else if (id == 2) {
             return 1;
-        } else {
+        } else  {
             return fib(id - 1) + fib(id - 2);
         }
     }
